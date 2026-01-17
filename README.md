@@ -6,6 +6,7 @@ Python basics learning repo. Includes small projects and exercises as I build my
 - Loops & conditionals
 - Functions
 - Lists
+- Classes & objects
 
 ## Projects
 -[Rock Paper Scissors Game](https://github.com/PythonGirlie3/python_basics/blob/main/Rock%20Paper%20Scissors%20Game)
