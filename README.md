@@ -8,7 +8,7 @@ Python basics learning repo. Includes small projects and exercises as I build my
 - Lists
 
 ## Projects
-- Rock Paper Scissors Game 
+-[Rock Paper Scissors Game](https://github.com/PythonGirlie3/python_basics/blob/main/Rock%20Paper%20Scissors%20Game)
 
 
 ## Progress
