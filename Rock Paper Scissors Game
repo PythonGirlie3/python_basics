@@ -1,0 +1,70 @@
+# Rock Paper Scissors Game 
+
+import random
+
+player=0
+computer=0
+rock='✊'
+paper='✋'
+scissors='✌️'
+
+print('====================')
+print('Rock Paper Scissors')
+print('====================')
+print('')
+print('1) ✊')
+print('2) ✋')
+print('3) ✌️')
+
+player=int(input('Pick a number: '))
+print('')
+
+computer=random.randint(1,3)
+
+if player==1 and computer==1:
+  print('You picked: '+rock)
+  print('CPU picked: '+rock)
+  print('It is a tie!')
+
+elif player==2 and computer==2:
+  print('You picked: '+paper)
+  print('CPU picked: '+paper)
+  print('It is a tie!')
+
+elif player==3 and computer==3:
+  print('You picked: '+scissors)
+  print('CPU picked: '+scissors)
+  print('It is a tie!')
+
+elif player==1 and computer==2:
+  print('You picked: '+rock)
+  print('CPU picked: '+paper)
+  print('CPU wins!')
+
+elif player==2 and computer==1:
+  print('You picked: '+paper)
+  print('CPU picked: '+rock)
+  print('You win!')
+
+elif player==1 and computer==3:
+  print('You picked: '+rock)
+  print('CPU picked: '+scissors)
+  print('You win!')
+
+elif player==3 and computer==1:
+  print('You picked: '+scissors)
+  print('CPU picked: '+rock)
+  print('CPU wins!')
+
+elif player==2 and computer==3:
+  print('You picked: '+paper)
+  print('CPU picked: '+scissors)
+  print('CPU wins!')
+
+elif player==3 and computer==2:
+  print('You picked: '+scissors)
+  print('CPU picked: '+paper)
+  print('You win!')
+
+else:
+  print('Error')
